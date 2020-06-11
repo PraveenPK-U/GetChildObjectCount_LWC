@@ -1,0 +1,30 @@
+.background{
+    background-color:white;
+}
+.circleStyle {
+    width: 150px;
+    height: 150px;
+    border: green solid 15px;
+    border-radius: 50%;
+}
+.countStyle {
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.headStyle {
+    font-size: 100%;
+    font-variant: all-petite-caps;
+    font-weight: 800;
+}
+
+.buttonStyle {
+    margin-top: 5%;
+    width: 50%;
+    
+}
+.btnStyle{
+    font-size: 70%;
+    font-weight: 800;
+    font-variant: all-petite-caps;
+}

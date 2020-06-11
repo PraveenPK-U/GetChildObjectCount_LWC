@@ -1,0 +1,20 @@
+<template>
+<lightning-card  class="slds-text-heading_large" title="RELATED OBJECTS COUNT" icon-name="custom:custom14">
+    <div class="slds-grid slds-wrap">
+        <template for:each={objectMap} for:item="mapKey">
+                <div key={mapKey.key} class="slds-col">
+         
+                <div  class="headStyle slds-align_absolute-center " title={mapKey.key}>{mapKey.key}</div>
+            
+            
+                <div class="circleStyle slds-align_absolute-center"> 
+                    <div class='countStyle slds-align_absolute-cente' title={mapKey.value}>{mapKey.value}</div>
+                </div>
+            
+                </div>
+            
+            
+        </template>
+    </div>
+    </lightning-card>
+</template>
