@@ -20,17 +20,4 @@ export default class ObjectsCountLWC extends LightningElement {
             window.console.log(error);
         }
     }
-
-   /* @track objectMap=[];
-    @api recordId;
-    @wire(getObjectNameNCount,{recordId:'$recordId'}) mapNameNCount;
-    wiredResult(result){
-        if(result.data){
-            var conts=result.data;
-            alert('const '+conts);
-            for(var key in conts){
-                this.objectMap.push({value:conts[key],key:key});
-            }
-        }
-    }*/
 }

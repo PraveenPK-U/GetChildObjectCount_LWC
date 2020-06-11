@@ -4,8 +4,8 @@ public class RelatedObjectsCountController {
         Map<String,Integer> mapNameNCount = new Map<String,Integer>();
        Id recId = Id.valueOf(recordId);
         String sObjName = recId.getSObjectType().getDescribe().getName();
-        //String objRecId= string.valueOf(recordId);
         recordId ='\''+recordId+'\'';
+       //Fetch the child object details from the metadata 
         List<RelatedObjectSetting__mdt> listObjects = [select Object_API_Name__c	,MasterLabel,FieldAPI__c from RelatedObjectSetting__mdt 
                                                        where Partent_Object__c=:sObjName];
         try{
@@ -16,7 +16,7 @@ public class RelatedObjectsCountController {
             }
         }
         Catch(Exception ex){
-            mapNameNCount.put('error',0);
+            mapNameNCount.put(ex.message,0);
         }
         return mapNameNCount;
     }
