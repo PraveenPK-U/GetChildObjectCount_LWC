@@ -10,4 +10,6 @@ Place the component anywhere in the Parent object and display the related object
 
 # CustomMetadata
 
-This contains the information of Child object and its corresponding API field name to refer the Parent object.
+This contains the information of Child object and its corresponding API field name to refer the Parent object. 
+
+![image](https://user-images.githubusercontent.com/26570884/84782938-a8da2a00-afb6-11ea-8fff-2393c3e58e70.png)
