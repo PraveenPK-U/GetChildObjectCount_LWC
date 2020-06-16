@@ -8,7 +8,7 @@
 
 Place the component anywhere in the Parent object and display the related object count. This component will work in a dynamic way for any object by referring to the custom metadata. 
 
-# CustomMetadata
+# Custom Metadata
 
 This contains the information of Child object and its corresponding API field name to refer the Parent object. 
 
